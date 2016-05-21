@@ -18,11 +18,11 @@ Firefox for iOS is a browser from Mozilla, for the Apple iPhone, iPad and iPod t
 It is the first Firefox branded browser to not use the Gecko layout engine as is used in Firefox for desktop and mobile. Due to Apple's application review policies, Firefox uses the built-in iOS WebKit-based rendering framework instead of Gecko.
 Firefox for iOS supports Firefox Sync and is able to sync Firefox's browsing history, bookmarks, and recent tabs.
 
-A general browser architecture:
+**A general browser architecture:**
 
 ![](general.jpg)
 
-Firefox architecture looks as the following figure, but because of Apple policies they had to use the build-in ios WebKit.
+**Firefox** architecture looks as the following figure, but because of Apple policies they had to use the build-in ios WebKit.
 
 ![](firefox-diagram.jpg)
 
@@ -42,11 +42,16 @@ They can find the bugs that need to be fixed at the following list:
 
 
 # Statics
-The weekly commits:
+
+
+**The weekly commits:**
 ![](commit-cont.png)
 
-Notice the high code change frequency: 
+
+
+**Notice the high code change frequency:**
 ![](code-freq-statics.png)
+
 
 
 Looking at the following release frequency, one can understand that firefox uses the agile method.
