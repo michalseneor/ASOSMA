@@ -28,6 +28,8 @@ Firefox architecture looks as the following figure, but because of Apple policie
 
 
 
+
+
 Firefox is an open-source browser, users around the world help to improve it.
 Contributers can communicate through: 
 * IRC:            [#mobile](https://wiki.mozilla.org/IRC) for general discussion and [#mobistatus](https://wiki.mozilla.org/IRC) for team status updates.
@@ -37,7 +39,9 @@ They can find the bugs that need to be fixed at the following list:
 
 * Bugs:           [File a new bug](https://bugzilla.mozilla.org/enter_bug.cgi?bug_file_loc=http%3A%2F%2F&bug_ignored=0&op_sys=iOS%20&product=Firefox%20for%20iOS&rep_platform=All) • [Existing bugs](https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox%20for%20iOS) 
 
-some statics taken from their github repo:
+
+
+# Statics
 The weekly commits:
 ![](commit-cont.png)
 
