@@ -19,9 +19,11 @@ It is the first Firefox branded browser to not use the Gecko layout engine as is
 Firefox for iOS supports Firefox Sync and is able to sync Firefox's browsing history, bookmarks, and recent tabs.
 
 A general browser architecture:
+
 ![](general.jpg)
 
 Firefox architecture looks as the following figure, but because of Apple policies they had to use the build-in ios WebKit.
+
 ![](firefox-diagram.jpg)
 
 
@@ -30,7 +32,9 @@ Firefox is an open-source browser, users around the world help to improve it.
 Contributers can communicate through: 
 * IRC:            [#mobile](https://wiki.mozilla.org/IRC) for general discussion and [#mobistatus](https://wiki.mozilla.org/IRC) for team status updates.
 * Mailing list:   [mobile-firefox-dev@mozilla.org](https://mail.mozilla.org/listinfo/mobile-firefox-dev).
+
 They can find the bugs that need to be fixed at the following list:
+
 * Bugs:           [File a new bug](https://bugzilla.mozilla.org/enter_bug.cgi?bug_file_loc=http%3A%2F%2F&bug_ignored=0&op_sys=iOS%20&product=Firefox%20for%20iOS&rep_platform=All) • [Existing bugs](https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox%20for%20iOS) 
 
 some statics taken from their github repo:
