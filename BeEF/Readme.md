@@ -35,14 +35,26 @@
   BeEF is an actively developed open source project that allows the use of versioning systems such as Git ([repository](https://github.com/beefproject/beef)) and was nominated among toolswatch.org’s top 10 security tools. Each progress and improvement is shared through its [website](http://beefproject.com/), social networking ([twitter](https://twitter.com/beefproject), [Linkedin](https://www.linkedin.com/groups/3988552/profile)), an active [blog](http://blog.beefproject.com/) and a [youtube](https://www.youtube.com/user/TheBeefproject) channel. It was also the topic of many [reviews](https://github.com/beefproject/beef/wiki/References) and podcasts. Also, through the publication of the "Browser Hacker's Handbook", Wade has shared his specialist knowledge of security with students and professionals alike.  
   Also BeEF has a standard mailing list:  beef-subscribe@bindshell.net and a development mailing list: beef-dev-subscribe@bindshell.net
   
-  BeEF has also a bug/features list in the issues section on github where the bugs/features are tagged according to their importance 
-  
-  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/bugs_featuresList.png)
-  
 #### Development Process
   
   The development process is based on proactive communication and rotates around seven dates in the month. Each one of those dates represents a deadline for specific task concerning assignement of development goals, completion of issues, testing, verification and release of the result ([development cycle](https://github.com/rivkage/ASOSMA/blob/master/BeEF/DevelopmentCycle.md))
   
+#### Guidelines
+
+ To submit an issue, contributors should do it according to guidelines and an [issue template](https://github.com/beefproject/beef/blob/master/.github/ISSUE_TEMPLATE.md). Submitter will have to fill all the fields so that the issue environment could be reproduce and then fixed. It allows a better platform maintenance.  
+ 
+#### Graphs and Statistics
+
+**Contributions to master:**  (https://github.com/beefproject/beef/graphs/contributors)   
+![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/ContributionToMaster.PNG)  
+
+**Weekly Commits:** (https://github.com/beefproject/beef/graphs/commit-activity)
+![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/WeeklyCommits.PNG) 
+
+ **Bug/Features list in the [issues](https://github.com/beefproject/beef/issues) section on github:**  (bugs/features are tagged according to their importance and type) 
+  
+  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/bugs_featuresList.png)
+
 #### Why did we choose BeEF ?
 
    BeEF stands for a platform in constant evolution and a tool that meets people growing needs of a secure environment in a web focused world. It has been restructurated from a Php application to a Ruby base framework, allowing  many new features to be added and its community to grow, handling now pull requests daily.  
