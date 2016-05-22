@@ -19,10 +19,16 @@
   BeEF looks past the hardened network perimeter and client system, and examines exploitability within the context of the one open door: the web browser. BeEF will hook one or more web browsers and use them as beachheads for launching directed command modules and further attacks against the system from within the browser context. Each browser is likely to be within a different security context, and each context may provide a set of unique attack vectors.
   The framework contains numerous command modules that employ BeEF's simple and powerful API. This API is at the heart of the framework's effectiveness and efficiency. It abstracts complexity and facilitates quick development of custom modules.
   The penetration tester can then select specific modules (in real-time) to target each browser, and therefore each context.  
-  The framework works with a client server architecture. and different usage patterns level. The actors are mainly the user interface which is the control interface for using BeEF and the communication server. From the interface a user can see all online and offline browsers, run exploits against them and see the results while the communication server is the component that communicates via HTTP with the hooked browsers.  
+  
+#### Architecture 
+
+  The framework works with a client server architecture and different usage patterns level. The actors are mainly the user interface which is the control interface for using BeEF and the communication server. From the interface a user can see all online and offline browsers, run exploits against them and see the results while the communication server is the component that communicates via HTTP with the hooked browsers.  
   
   
- ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/Pattern1.png)
+ ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/Pattern1.png)  
+ 
+ 
+  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/highLevel.png)]
   
 #### Ressources
   
@@ -39,4 +45,4 @@
    In this project, insights regarding BeEF's Software Architecture are given. This makes it easier for new people to join the open source scene to contribute to the BeEF project. Additionally this will also give the BeEF team an outsider's view of their Software Architecture.  
      
        
-  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/highLevel.png)]
+ 
