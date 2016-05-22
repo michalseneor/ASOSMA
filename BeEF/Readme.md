@@ -28,11 +28,16 @@
  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/Pattern1.png)  
  
  
-  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/highLevel.png)]
+  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/highLevel.png)
   
 #### Ressources
   
   BeEF is an actively developed open source project that allows the use of versioning systems such as Git ([repository](https://github.com/beefproject/beef)) and was nominated among toolswatch.org’s top 10 security tools. Each progress and improvement is shared through its [website](http://beefproject.com/), social networking ([twitter](https://twitter.com/beefproject), [Linkedin](https://www.linkedin.com/groups/3988552/profile)), an active [blog](http://blog.beefproject.com/) and a [youtube](https://www.youtube.com/user/TheBeefproject) channel. It was also the topic of many [reviews](https://github.com/beefproject/beef/wiki/References) and podcasts. Also, through the publication of the "Browser Hacker's Handbook", Wade has shared his specialist knowledge of security with students and professionals alike.  
+  Also BeEF has a standard mailing list:  beef-subscribe@bindshell.net and a development mailing list: beef-dev-subscribe@bindshell.net
+  
+  BeEF has also a bug/features list in the issues section on github where the bugs/features are tagged according to their importance 
+  
+  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/bugs_featuresList.png)
   
 #### Development Process
   
