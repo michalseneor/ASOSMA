@@ -23,7 +23,8 @@ Firefox for iOS supports Firefox Sync and is able to sync Firefox's browsing his
 **A general browser architecture:**
 
 ![](general.jpg)
-[Reference](http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674)**
+
+[Reference](http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674)
 
 
 **Firefox** architecture looks as the following figure, but because of Apple policies they had to use the build-in ios WebKit instead of gecko.
