@@ -23,13 +23,14 @@ Firefox for iOS supports Firefox Sync and is able to sync Firefox's browsing his
 **A general browser architecture:**
 
 ![](general.jpg)
-**[REF]{http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674)**
+[Reference](http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674)**
 
 
 **Firefox** architecture looks as the following figure, but because of Apple policies they had to use the build-in ios WebKit instead of gecko.
 
 ![](firefox-diagram.jpg)
-**[REF](http://www.shinylight.com/wp-content/uploads/2009/09/11.jpg)**
+
+[Reference](http://www.shinylight.com/wp-content/uploads/2009/09/11.jpg)
 
 
 ## Resources 
@@ -50,30 +51,32 @@ They can find the bugs that need to be fixed at the following list:
 
 **The weekly commits:**
 ![](commit-cont.png)
-**[REF](https://github.com/mozilla/firefox-ios/graphs/commit-activity)**
+[Reference](https://github.com/mozilla/firefox-ios/graphs/commit-activity)
 
 
 **Notice the high code change frequency:**
 ![](code-freq-statics.png)
-**[REF](https://github.com/mozilla/firefox-ios/graphs/code-frequency)**
+[Reference](https://github.com/mozilla/firefox-ios/graphs/code-frequency)
 
 
 Looking at the following release frequency, one can understand that firefox uses the agile method.
 Also according to [itbusinessedge](http://www.itbusinessedge.com/cm/blogs/all/mozilla-takes-hybrid-approach-to-agile-software-development/?cs=38988):
 "Mozilla has also begun using a hybrid model that incorporates elements of both agile and waterfall approaches for its flagship Firefox Web browser. The goal is to more quickly introduce new features -- aided by agile's emphasis on iterative releases -- while maintaining backward compatibility, security and overall code quality.".
 ![](release-statics.png)
-**[REF](https://github.com/mozilla/firefox-ios/releases)**
+
+[Reference](https://github.com/mozilla/firefox-ios/releases)
 
 
 
 Firefox has bugs/features list in their [issues](https://github.com/mozilla/firefox-ios/issues) in github:
 ![](issues.png)
-**[REF](https://github.com/mozilla/firefox-ios/issues)**
+[Reference](https://github.com/mozilla/firefox-ios/issues)
 
 ## Contributor guidelines
 
 Using Firefox official site [Bugzilla](https://bugzilla.mozilla.org/). Developers can find a list of bugs in firefox
 All developers must follow the following Swift style to keep the code orginized: https://github.com/raywenderlich/swift-style-guide.
-With small * Exception: we use 4-space indentation instead of 2.
 
-Further info can be find on [firefox-ios Repository](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+With small * Exception: they use 4-space indentation instead of 2.
+
+Further info can be find at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
