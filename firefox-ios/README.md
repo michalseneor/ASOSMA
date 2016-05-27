@@ -18,16 +18,21 @@ Firefox for iOS is a browser from Mozilla, for the Apple iPhone, iPad and iPod t
 It is the first Firefox branded browser to not use the Gecko layout engine as is used in Firefox for desktop and mobile. Due to Apple's application review policies, Firefox uses the built-in iOS WebKit-based rendering framework instead of Gecko.
 Firefox for iOS supports Firefox Sync and is able to sync Firefox's browsing history, bookmarks, and recent tabs.
 
+## Architecture
+
 **A general browser architecture:**
 
 ![](general.jpg)
+**[REF]{http://image.slidesharecdn.com/web-browserarchitecture-150609231155-lva1-app6892/95/web-browser-architecture-2-638.jpg?cb=1433891674)**
+
 
 **Firefox** architecture looks as the following figure, but because of Apple policies they had to use the build-in ios WebKit instead of gecko.
 
 ![](firefox-diagram.jpg)
+**[REF](http://www.shinylight.com/wp-content/uploads/2009/09/11.jpg)**
 
 
-
+## Resources 
 
 Firefox is an open-source browser, users around the world help to improve it.
 Contributers can communicate through: 
@@ -45,57 +50,30 @@ They can find the bugs that need to be fixed at the following list:
 
 **The weekly commits:**
 ![](commit-cont.png)
-
+**[REF](https://github.com/mozilla/firefox-ios/graphs/commit-activity)**
 
 
 **Notice the high code change frequency:**
 ![](code-freq-statics.png)
-
+**[REF](https://github.com/mozilla/firefox-ios/graphs/code-frequency)**
 
 
 Looking at the following release frequency, one can understand that firefox uses the agile method.
 Also according to [itbusinessedge](http://www.itbusinessedge.com/cm/blogs/all/mozilla-takes-hybrid-approach-to-agile-software-development/?cs=38988):
 "Mozilla has also begun using a hybrid model that incorporates elements of both agile and waterfall approaches for its flagship Firefox Web browser. The goal is to more quickly introduce new features -- aided by agile's emphasis on iterative releases -- while maintaining backward compatibility, security and overall code quality.".
 ![](release-statics.png)
-
+**[REF](https://github.com/mozilla/firefox-ios/releases)**
 
 
 
 Firefox has bugs/features list in their [issues](https://github.com/mozilla/firefox-ios/issues) in github:
 ![](issues.png)
-
-
-
+**[REF](https://github.com/mozilla/firefox-ios/issues)**
 
 ## Contributor guidelines
 
-### Creating a pull request
-* All pull requests must be associated with a specific bug in [Bugzilla](https://bugzilla.mozilla.org/).
- * If a bug corresponding to the fix does not yet exist, please [file it](https://bugzilla.mozilla.org/enter_bug.cgi?op_sys=iOS&product=Firefox%20for%20iOS&rep_platform=All).
- * You'll need to be logged in to create/update bugs, but note that Bugzilla allows you to sign in with your GitHub account.
-* Use the bug number/title as the name of pull request. For example, a pull request for [bug 1135920](https://bugzilla.mozilla.org/show_bug.cgi?id=1135920) would be titled "Bug 1135920 - Create a top sites panel".
-* Finally, upload an attachment to the bug pointing to the GitHub pull request.
- 1. Click <b>Add an attachment</b>.
- 2. Next to <b>File</b>, click <b>Paste text as attachment</b>.
- 3. Paste the URL of the GitHub pull request.
- 4. Enter "Pull request" as the description.
- 5. Finally, flag the pull request for review. Set the <b>review</b> field to "?", then enter the name of the person you'd like to review your patch. If you don't know whom to add as the reviewer, click <b>suggested reviewers</b> and select a name from the dropdown list.
+Using Firefox official site [Bugzilla](https://bugzilla.mozilla.org/). Developers can find a list of bugs in firefox
+All developers must follow the following Swift style to keep the code orginized: https://github.com/raywenderlich/swift-style-guide.
+With small * Exception: we use 4-space indentation instead of 2.
 
-<b>Pro tip: To simplify the attachment step, install the [Github Bugzilla Tweaks](https://github.com/autonome/Github-Bugzilla-Tweaks) addon. This will add a button that takes care of the first four attachment steps for you.</b>
-
-### Swift style
-* Swift code should generally follow the conventions listed at https://github.com/raywenderlich/swift-style-guide.
-  * Exception: we use 4-space indentation instead of 2.
-
-### Whitespace
-* New code should not contain any trailing whitespace.
-* We recommend enabling both the "Automatically trim trailing whitespace" and "Including whitespace-only lines" preferences in Xcode (under Text Editing).
-* <code>git rebase --whitespace=fix</code> can also be used to remove whitespace from your commits before issuing a pull request.
-
-### Commits
-* Each commit should have a single clear purpose. If a commit contains multiple unrelated changes, those changes should be split into separate commits.
-* If a commit requires another commit to build properly, those commits should be squashed.
-* Follow-up commits for any review comments should be squashed. Do not include "Fixed PR comments", merge commits, or other "temporary" commits in pull requests.
-
-
-
+Further info can be find on [firefox-ios Repository](https://github.com/mozilla/firefox-ios#contributor-guidelines)
