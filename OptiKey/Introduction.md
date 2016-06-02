@@ -31,7 +31,8 @@ Add support for more languages (dictionaries, as well as localising OptiKey)
 Add next word suggestions
 Support for accessible buttons, sip/puff tubes, brain potential detection, and lots of other human interfaces
 and a lot more...
-The development proccess in github begins with contribution of unit test from one user which allows Julius Sweetland to continue with the develpment proccess in a large scale with assosiation with github. once unit testing and basic qa was enable OptiKey started to add new features indicates that the main model of optiKey is able to accept addons and new features and developments like : Character codes,Auto correct words,Predict next word,Add high contrast theme etc, indicates scalabilty and extentiablity.
+The development proccess in github begins with contribution of unit test from one user which allows Julius Sweetland to continue with the develpment proccess in a large scale with assosiation with github. once unit testing and basic qa was enable OptiKey started to add new features indicates that the main model of optiKey is able to accept addons and new features and developments like : Character codes,Auto correct words,Predict next word,Add high contrast theme etc, indicates scalabilty and extentiablity. 
+until now OptuKey recive new features and code contrubutes especiely new localization languages. 
 
 ## Availaibe resources  Review
 * On optiKey wiki (github) you may find wide available information about the product with highlights about the functionality of the     product . in addition there is a lot of user guides that covers installation, deployments, managment and Troubleshooting .  
