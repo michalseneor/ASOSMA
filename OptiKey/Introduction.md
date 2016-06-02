@@ -23,14 +23,15 @@ OptiKey was written to challenge the outrageously expensive, unreliable and diff
 As a team we decided to choose a small and smart startup with social contribute and has a massive support from people around the web. This project appears to help people with disabilities and have a good cause and we liked it.
 It also appears to be a promising project which have a great future in the startup industry and health industry .
 
-## Describe the model of the development process:
-This is an open source project and I would love for there to be a community of volunteers around OptiKey. I have a list the length of my arm with ideas, features and improvements. Here's a sample;
-
+## Development process
+OptiKey is an open source project in order to open up into a developers community and volunteers . 
+The project was developed by one person (Julius Sweetland), this is the main reason that optikey is an opensource.
+Its opens up more options for this project like:
 Add support for more languages (dictionaries, as well as localising OptiKey)
 Add next word suggestions
 Support for accessible buttons, sip/puff tubes, brain potential detection, and lots of other human interfaces
-and lots more...
-If you are interested in helping to push this project forward please email me at [optikeyfeedback@gmail.com](optikeyfeedback@gmail.com), or if you are a software dev please take a look at the current set of issues on the [GitHub issue tracker](https://github.com/JuliusSweetland/OptiKey/issues).
+and a lot more...
+
 
 ## Availaibe resources  Review
 * On optiKey wiki (github) you may find wide available information about the product with highlights about the functionality of the     product . in addition there is a lot of user guides that covers installation, deployments, managment and Troubleshooting .  
