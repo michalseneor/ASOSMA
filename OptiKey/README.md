@@ -1,5 +1,7 @@
+![certum Logo](images/logo.png)
+<!-- -->
 
-## OptiKey - Class Project
+# OptiKey - Class Project
 
 Stage 0:
 
@@ -12,5 +14,11 @@ Stage 0:
     - [Nir Alcalay](https://github.com/niral)
     - [Katya Denef](https://github.com/katyadenef)
     - [Ilan Matityahoo](https://github.com/ilanMatityahoo)
+
+Stage 1: 
+[Intrudaction](https://github.com/adirel/ASOSMA/blob/master/OptiKey/Introduction.md)
+
+Stage 2: 
+[Views and prespectives](https://github.com/adirel/ASOSMA/blob/master/OptiKey/viewsandprespectives.md)
 
 
