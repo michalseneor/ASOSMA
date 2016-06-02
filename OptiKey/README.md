@@ -18,4 +18,7 @@ Stage 0:
 Stage 1: 
 [Intrudaction](https://github.com/adirel/ASOSMA/blob/master/OptiKey/Introduction.md)
 
+Stage 2: 
+[Views and prespectives](https://github.com/adirel/ASOSMA/blob/master/OptiKey/viewsandprespectives.md)
+
 
