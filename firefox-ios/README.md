@@ -81,3 +81,17 @@ All developers must follow the following Swift style to keep the code orginized:
 With small * Exception: they use 4-space indentation instead of 2.
 
 Further info can be find at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+
+
+## General source code structure
+
+Firefox seperates code to packages to keep everything orginized to help developers add/fix features with an ease.
+The following figure shows the code structure, one can see there is packages for : Account, Client, Extensions, etc... 
+For most packages there is a corresponding package for tests:  AccountTest, ClientTest, etc... . That way if firefox-developers or external-contributers do changes, they dont break the browser functionality.
+general detailed code structure can be found at (note: this code structure are for windows, but its the same for all platforms in general):
+* https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
+* http://codefirefox.com/video/source-structure
+![](code structor.png)
+[Reference](https://github.com/mozilla/firefox-ios)
+
+
