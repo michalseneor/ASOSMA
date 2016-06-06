@@ -151,3 +151,8 @@ general detailed code structure can be found at (note: this code structure are f
 
 [Reference](http://blog.quent.in/assets/wp-content/uploads/2012/04/index.png)
  
+ 
+  ## Missing important feature
+  According to [bugzilla](https://bugzilla.mozilla.org). Firefox is missing an important feature which filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089.
+  At it is recommended for the new contributers to add that features.
+  Following [Swift style]( https://github.com/raywenderlich/swift-style-guide) which was recommended by firefox. We added the new feature, and created a pull request and attached it on there bugzilla site according to there [guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
