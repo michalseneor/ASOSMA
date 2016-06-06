@@ -152,7 +152,7 @@ general detailed code structure can be found at (note: this code structure are f
 [Reference](http://blog.quent.in/assets/wp-content/uploads/2012/04/index.png)
  
  
- ## Missing important feature
+## Missing important feature
   
   According to [bugzilla](https://bugzilla.mozilla.org). Firefox is missing an important feature which filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089.
   
