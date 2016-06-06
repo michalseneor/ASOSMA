@@ -140,4 +140,14 @@ general detailed code structure can be found at (note: this code structure are f
  * Web dev: Craig Cook
  * Analytics: Gareth C
  * L10N: Flod, Pascal Chevrel
+ 
  [Reference](https://wiki.mozilla.org/Websites/Mozilla.org/Smart_On)
+ 
+ ## UML - Sequence diagram
+ 
+ The following sequence diagram shows the important part of any webbrowser and how it works, how the MVC works in firefox:
+ 
+ ![](firefox-sequence.png)
+
+[Reference](http://blog.quent.in/assets/wp-content/uploads/2012/04/index.png)
+ 
