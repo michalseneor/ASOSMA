@@ -16,12 +16,65 @@
  
 
 ## Analyze and describe the main requirements/features of the product 
-
+OptiKey is an assistive on-screen keyboard. It is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations. 
+Main Features:
+* [Typing words](https://github.com/OptiKey/OptiKey/wiki/Type-your-first-word)
+* [Writing Numbers, symbols and diacritics](https://github.com/OptiKey/OptiKey/wiki/Numbers,-symbols-and-diacritics)
+* [Using eye trackers](https://github.com/OptiKey/OptiKey/wiki/Using-eye-trackers)
+* [Using webcams](https://github.com/OptiKey/OptiKey/wiki/Using-webcams)
+* [Change selection method](https://github.com/OptiKey/OptiKey/wiki/Change-selection-method)
+* [Speech](https://github.com/OptiKey/OptiKey/wiki/Speech)
+* [Voice banking](https://github.com/OptiKey/OptiKey/wiki/Voice-banking)
+* [Simulate a keyboard](https://github.com/OptiKey/OptiKey/wiki/Simulate-a-keyboard)
+* [Simulate a mouse](https://github.com/OptiKey/OptiKey/wiki/Simulate-a-mouse)
+* [Multi key selection](https://github.com/OptiKey/OptiKey/wiki/Multi-key-selection)
+* [Auto Suggestions](https://github.com/OptiKey/OptiKey/wiki/Suggestions)
+* [Auto capitalisation & auto spacing](https://github.com/OptiKey/OptiKey/wiki/Auto-capitalisation-&-auto-spacing)
+* [Dictionary](https://github.com/OptiKey/OptiKey/wiki/The-dictionary)
+* [Change Sizes & Positions](https://github.com/OptiKey/OptiKey/wiki/Size-&-position)
+* [Transparency](https://github.com/OptiKey/OptiKey/wiki/Transparency)
+* [Theme](https://github.com/OptiKey/OptiKey/wiki/Change-the-theme)
+* [Conversation mode](https://github.com/OptiKey/OptiKey/wiki/Conversation-only-mode)
+* [Sleep](https://github.com/OptiKey/OptiKey/wiki/Sleep)
+* [Speed up & slow down](https://github.com/OptiKey/OptiKey/wiki/Speed-up-&-slow-down)
+* [Visual settings](https://github.com/OptiKey/OptiKey/wiki/Visual-settings)
+* [Sound settings](https://github.com/OptiKey/OptiKey/wiki/Sound-settings)
+* [Word settings](https://github.com/OptiKey/OptiKey/wiki/Word-settings)
+* [Pointing & selecting settings](https://github.com/OptiKey/OptiKey/wiki/Pointing-&-selecting-settings)
 
 ## Analyze and describe the major or important designs with UML diagrams and or other modeling means
 
 
 ## Describe a few challenges for this project
+* [Smart Screen or Virus Scanner warnings](https://github.com/OptiKey/OptiKey/wiki/Smart-Screen-or-Virus-Scanner-warnings)
+* [Cannot open Management Console](https://github.com/OptiKey/OptiKey/wiki/Cannot-open-Management-Console)
+* [Eye tracker problems](https://github.com/OptiKey/OptiKey/wiki/Eye-tracker-problems)
+* [Factory reset all settings](https://github.com/OptiKey/OptiKey/wiki/Factory-reset-all-settings)
+* [Factory reset the dictionary](https://github.com/OptiKey/OptiKey/wiki/Factory-reset-the-dictionary)
+* [Multiple monitors](https://github.com/OptiKey/OptiKey/wiki/Multiple-monitors)
+* [No menu key, no mouse key](https://github.com/OptiKey/OptiKey/wiki/No-Menu-key,-no-mouse-key)
+* [Multi-key selection issues](https://github.com/OptiKey/OptiKey/wiki/Multi-key-selection-issues)
+* [OS language has changed](https://github.com/OptiKey/OptiKey/wiki/OS-language-has-been-changed)
+
+Issues:
+
+Localisation: 
+* [Italian](https://github.com/OptiKey/OptiKey/issues/264)
+* [Croatian](https://github.com/OptiKey/OptiKey/issues/263)
+* [Slovene](https://github.com/OptiKey/OptiKey/issues/248)
+* [Catalan](https://github.com/OptiKey/OptiKey/issues/235)
+* [Polish](https://github.com/OptiKey/OptiKey/issues/238)
+* [Portuguese](https://github.com/OptiKey/OptiKey/issues/234)
+* [General](https://github.com/OptiKey/OptiKey/issues/148)
+
+Bugs:
+* [Disconnects from Eye Tribe Tracker](https://github.com/OptiKey/OptiKey/issues/254)
+
+Wishlist:
+* [Allow input from mouse and eye tracker](https://github.com/OptiKey/OptiKey/issues/228)
+* [Multiple Dictionaries](https://github.com/OptiKey/OptiKey/issues/218)
+* [Running OptiKey on system with multiple screens](https://github.com/OptiKey/OptiKey/issues/175)
+ 
 
 
 
