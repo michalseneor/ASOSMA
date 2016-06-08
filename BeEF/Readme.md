@@ -86,7 +86,7 @@ The code is built in a modular way so creating new modules and adding them to Be
 Ruby code main classes:
 
 
-![](pic1.png)
+![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic1.png)
 
 
 ####**The Stakeholders**
@@ -94,7 +94,7 @@ The BeeF project comprises a large community of dozens of software engineers, de
 As it can be seen from the following figures the 2 leading contributors are contributing to other projects that are also dealing with the information security field. 
 
 
-![](pic2-stakeholders.png)
+![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic2-stakeholders.png)
 
 
 We can classify the prominent stockholders into 3 groups:
@@ -109,7 +109,7 @@ There is a certain group of developers that is continuously contributing to impr
 Suggesting new module to Beef Process:
 
 
-![](pic3-Developers.png)
+![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic3-Developers.png)
 
 **Users**
 
@@ -125,12 +125,12 @@ Since the BeeF project is dependent on their users to use the system to assess t
 
    **usecase diagram -**
 
- ![](use login tracker.png)
+ ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/use%20login%20tracker.png)
 
 
  **sequence diagram -**
  
- ![](sequence diagram login.png)
+ ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/sequence%20diagram%20login.png)
 
 
 ####**Challenges**
