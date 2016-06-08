@@ -80,7 +80,7 @@ All developers must follow the following Swift style to keep the code orginized:
 
 With small * Exception: they use 4-space indentation instead of 2.
 
-Further info can be find at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+Further info can be found at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
 
 
 ## General source code structure
@@ -127,7 +127,7 @@ general detailed code structure can be found at (note: this code structure are f
  
  One of the best money incoming for firefox are the search engines such as Google, who pays firefox to make Google search engine as the default search engine for firefox.
  
-* **General stakeholders**:
+* **Development team**:
  * Product Manager: Jen Bertsch
  * Project Manager: Mike Alexis
  * Content owner: Greg Jost
@@ -159,3 +159,6 @@ general detailed code structure can be found at (note: this code structure are f
   At it is recommended for the new contributers to add that features.
   
   Following [Swift style]( https://github.com/raywenderlich/swift-style-guide) which was recommended by firefox. We added the new feature, and created a pull request and attached it on there bugzilla site according to there [guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+  
+  * [Forked repo.](https://github.com/rawisa/firefox-ios)
+  * [PR](https://github.com/mozilla/firefox-ios/pull/1889) For the missing feature.
