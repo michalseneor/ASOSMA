@@ -6,7 +6,7 @@
 * [OptiKey Fork](https://github.com/adirel/OptiKey) - this is our fork to the optikey project
 * [OptiKey Fork - Modeling documentation folder](https://github.com/adirel/OptiKey/tree/master/docs/Modeling) - we created a new modeling folder into the optikey project in out fork.
 
-## documentation and general source code structure
+## Documentation and general source code structure
 
 * OptiKey project includes a "docs" folder which contains general information like credits, graphic design notes and some of the deployment proccess of this project.
 * [OptiKey wiki](https://github.com/OptiKey/OptiKey/wiki) - contain a full user guide about the UI, General information, technical support and troubleshooting and installation proccess.
