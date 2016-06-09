@@ -54,6 +54,7 @@ one of the most importent stages which represent a open source comuninity add va
 ![umlILAN](images/ActivityDiagram.png)
 
 ## Describe a few challenges for this project
+Issues:
 * [Smart Screen or Virus Scanner warnings](https://github.com/OptiKey/OptiKey/wiki/Smart-Screen-or-Virus-Scanner-warnings)
 * [Cannot open Management Console](https://github.com/OptiKey/OptiKey/wiki/Cannot-open-Management-Console)
 * [Eye tracker problems](https://github.com/OptiKey/OptiKey/wiki/Eye-tracker-problems)
@@ -63,8 +64,6 @@ one of the most importent stages which represent a open source comuninity add va
 * [No menu key, no mouse key](https://github.com/OptiKey/OptiKey/wiki/No-Menu-key,-no-mouse-key)
 * [Multi-key selection issues](https://github.com/OptiKey/OptiKey/wiki/Multi-key-selection-issues)
 * [OS language has changed](https://github.com/OptiKey/OptiKey/wiki/OS-language-has-been-changed)
-
-Issues:
 
 Localisation: 
 * [Italian](https://github.com/OptiKey/OptiKey/issues/264)
