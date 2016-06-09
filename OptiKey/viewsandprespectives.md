@@ -43,6 +43,14 @@ Main Features:
 * [Pointing & selecting settings](https://github.com/OptiKey/OptiKey/wiki/Pointing-&-selecting-settings)
 
 ## Analyze and describe the major or important designs with UML diagrams and or other modeling means
+
+one of the most importent stages which represent a open source comuninity add value and system expandad measors.
+ this diagram describe the 4 stages wich needed to adding a new local.
+* UI element translations
+* a word dictionary
+* a keyboard layout
+* integrate them into OptiKey
+ 
 ![umlILAN](images/ActivityDiagram.png)
 
 ## Describe a few challenges for this project
