@@ -43,7 +43,7 @@ Main Features:
 * [Pointing & selecting settings](https://github.com/OptiKey/OptiKey/wiki/Pointing-&-selecting-settings)
 
 ## Analyze and describe the major or important designs with UML diagrams and or other modeling means
-
+![umlILAN](images/ActivityDiagram.png)
 
 ## Describe a few challenges for this project
 * [Smart Screen or Virus Scanner warnings](https://github.com/OptiKey/OptiKey/wiki/Smart-Screen-or-Virus-Scanner-warnings)
