@@ -17,6 +17,7 @@ title: Azrieli Students On Software Modeling and Architecture
 * OptiKey: [OptiKey](OptiKey/)
   * [Readme](OptiKey/README.md)  
   * [Introduction](OptiKey/Introduction.md)
+  * [ViewS and Prespectives](OptiKey/viewsandprespectives.md)
 * BeEF: [BeEF] (BeEF/)
   * [Readme](BeEF/Readme.md)
 * [VIDEO.JS](VideoJs/README.md):
