@@ -127,6 +127,12 @@ general detailed code structure can be found at (note: this code structure are f
  
  One of the best money incoming for firefox are the search engines such as Google, who pays firefox to make Google search engine as the default search engine for firefox.
  
+ * **Users**:
+ 
+ define the system's functionality and use it once it has been deployed.
+ 
+ Users use the browser to surf the internet, they expect it to be fast, and wait for new updates for bug fixes or new feature to fully enjoy surfing the internet.
+ 
 * **Development team**:
  * Product Manager: Jen Bertsch
  * Project Manager: Mike Alexis
@@ -154,7 +160,7 @@ general detailed code structure can be found at (note: this code structure are f
  
 ## Missing important feature
   
-  According to [bugzilla](https://bugzilla.mozilla.org). Firefox is missing an important feature which filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089.
+  According to [bugzilla](https://bugzilla.mozilla.org). Firefox is missing an important feature which filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089. The feature is: "Detect if the user has a URL in their clipboard when re-entering the app", The browser currently checks if there is copied URL only when the app opens for the first time and not when the app goes background -> user copies URL -> enters the browser again.
   
   At it is recommended for the new contributers to add that features.
   
