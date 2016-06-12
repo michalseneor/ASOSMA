@@ -127,7 +127,7 @@ general detailed code structure can be found at (note: this code structure are f
  
  One of the best money incoming for firefox are the search engines such as Google, who pays firefox to make Google search engine as the default search engine for firefox.
  
- * **Users**:
+* **Users**:
  
  define the system's functionality and use it once it has been deployed.
  
