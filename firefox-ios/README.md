@@ -171,12 +171,18 @@ general detailed code structure can be found at (note: this code structure are f
   
   
 ## Metrics, Variability and Quality Measures
-  ![](circleci.svg)
+  ![](circleci.png)
+  
   Firefox uses circleci for continuous integration. CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp quickly, scale easily, and build confidently every day.
   Over 100,000 companies uses circleci, such as: Facebook, Kickstarter, Spotify, GoPro, etc...
+  
+  ![](companies.png)
+  
   circleci can be easily installed, run tests and automatically have each successful build on master be pushed to any deployment host.
   
-  For the PR we made it took circleci about 10 minutes to run all the tests by mainly running the following command which executes all the tests in the project: "set -o pipefail && xcodebuild CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64" -destination 'platform=iOS Simulator,name=iPhone 4s,OS=9.3' -sdk iphonesimulator -project 'Client.xcodeproj' -scheme "FennecCI" clean build test | tee $CIRCLE_ARTIFACTS/xcode_raw.log"
+  For the PR we made it took circleci about 10 minutes to run all the tests by mainly running the following command which executes all the tests in the project:
+ 
+  *"set -o pipefail && xcodebuild CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64" -destination 'platform=iOS Simulator,name=iPhone 4s,OS=9.3' -sdk iphonesimulator -project 'Client.xcodeproj' -scheme "FennecCI" clean build test | tee $CIRCLE_ARTIFACTS/xcode_raw.log"*
   
   It ran 263 tests in xcode with 0 failures. When the tests finishes it shows a green arrow on the PR to verify that our build passed all tests:
   
