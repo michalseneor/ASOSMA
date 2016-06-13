@@ -125,12 +125,12 @@ Since the BeeF project is dependent on their users to use the system to assess t
 
    **usecase diagram -**
 
- ![](use login tracker.png)
+ ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/use%20login%20tracker.png)
 
 
  **sequence diagram -**
  
- ![](sequence diagram login.png)
+ ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/sequence%20diagram%20login.png)
 
 
 ####**Challenges**
