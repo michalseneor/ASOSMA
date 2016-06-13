@@ -86,7 +86,7 @@ The code is built in a modular way so creating new modules and adding them to Be
 Ruby code main classes:
 
 
-![](pic1.png)
+![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic1.png)
 
 
 ####**The Stakeholders**
