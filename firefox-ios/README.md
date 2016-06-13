@@ -187,3 +187,22 @@ general detailed code structure can be found at (note: this code structure are f
   It ran 263 tests in xcode with 0 failures. When the tests finishes it shows a green arrow on the PR to verify that our build passed all tests:
   
   ![](our-pr.png)
+  
+## Security
+  ![](security.jpg)
+  
+  **Firefox 4: **
+  Firefox presented a Sync 1.0, which creates a unique secret key, which was used to encrypt and decrypt all your data. And the only way to get the data was to know that key.
+  
+  **Problems with Sync 1.0**
+  
+  If you lose your only device, you probably also lost the only copy of your secret key, and without that key, there was no way to recover your Sync data.
+  
+  
+  **Firefox 29: **
+  features a brand new Firefox Sync experience that is much easier to use while maintaining the high standard of safety, security, and openness that a user expects from Mozilla.  
+  
+  The security goals remain the same: there is still a strong random secret key, and Mozilla’s servers cannot decrypt your data.
+  However, instead of using pairing, a “wrapped” version of your secret key, protected by your password, is stored alongside your Firefox Account.
+  This means you can recover all your data, even if you lose all your devices at the same time.
+  Setting up a new device only requires typing your Firefox Account email and password into it.
