@@ -94,7 +94,7 @@ The BeeF project comprises a large community of dozens of software engineers, de
 As it can be seen from the following figures the 2 leading contributors are contributing to other projects that are also dealing with the information security field. 
 
 
-![](pic2-stakeholders.png)
+![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic2-stakeholders.png)
 
 
 We can classify the prominent stockholders into 3 groups:
@@ -109,7 +109,7 @@ There is a certain group of developers that is continuously contributing to impr
 Suggesting new module to Beef Process:
 
 
-![](pic3-Developers.png)
+![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/pic3-Developers.png)
 
 **Users**
 
