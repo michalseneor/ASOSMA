@@ -80,4 +80,91 @@ All developers must follow the following Swift style to keep the code orginized:
 
 With small * Exception: they use 4-space indentation instead of 2.
 
-Further info can be find at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+Further info can be found at [Firefox-ios contributor guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+
+
+## General source code structure
+
+Firefox seperates code to packages to keep everything orginized to help developers add/fix features with an ease.
+The following figure shows the code structure, one can see there is packages for : Account, Client, Extensions, etc... 
+For most packages there is a corresponding package for tests:  AccountTest, ClientTest, etc... . That way if firefox-developers or external-contributers do changes, they dont break the browser functionality.
+general detailed code structure can be found at (note: this code structure are for windows, but its the same for all platforms in general):
+* https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Source_Code/Directory_structure
+* http://codefirefox.com/video/source-structure
+
+![](code structor.png)
+
+[Reference](https://github.com/mozilla/firefox-ios)
+
+
+## Stakeholder view
+* **Communicators**:
+
+ are the people that provide documentation for the users and administrators of the system.
+ Furthermore they may provide training for staff or the development team.
+ Often communicators promote the product by communicating the product's key features and benefits to other stakeholders.
+
+ Firefox is a global webbrowser, They have a "Mobilizers" community. Mobilizers are tech/geek enthusiasts that are committed to spreading Firefox OS, Mozilla's new mobile product. Mobilizers receive periodic missions asking them to do a simple action to teach others about the new Firefox OS. Mobilizers will also attend, assist or host events in their market about once a month [Reference](https://wiki.mozilla.org/FirefoxOS/Community/Mobilizers).
+
+* **Developers**:
+
+ are responsible for the implementation and deployment from the systems' specification.
+ That is: design, code, test and accept.
+ Their concerns lie with the platform used, programming languages for writing code, tools used, dependencies needed, as well as the maintainability and flexibility of the system.
+
+ The most active and notable developers at this moment are: Stefan Arentz, Brian Nicholson, Stephan Leroux and Richard Newman. These developers create pull requests with new features or fixes (Stefan Arentz does only fixes for bugs). It is important to note that these are not the only developers working on the firefox project. The most core team can be found at [Firefox-team](https://wiki.mozilla.org/Firefox/Team/whois).
+
+
+* **Testers**:
+
+ test the system to ensure that it works exactly the way it was intended to work.
+ 
+ [Stephan Leroux](https://github.com/sleroux) and [Brian Nicholson](https://github.com/thebnich), contribute the most to the tests, code tests, UI tests, etc... 
+
+* **Funders**:
+
+ Funders give money to the project to keep it alive.
+ 
+ One of the best money incoming for firefox are the search engines such as Google, who pays firefox to make Google search engine as the default search engine for firefox.
+ 
+* **Users**:
+ 
+ define the system's functionality and use it once it has been deployed.
+ 
+ Users use the browser to surf the internet, they expect it to be fast, and wait for new updates for bug fixes or new feature to fully enjoy surfing the internet.
+ 
+* **Development team**:
+ * Product Manager: Jen Bertsch
+ * Project Manager: Mike Alexis
+ * Content owner: Greg Jost
+ * Copy: Natalie Linden
+ * UX and Design: ZURB
+ * Creative lead: Tim Murray
+ * Foundation stakeholder: Andrea Wood
+ * Advocacy stakeholder: Jochai Ben-Avie
+ * Legal: Mika Devi
+ * Web dev: Craig Cook
+ * Analytics: Gareth C
+ * L10N: Flod, Pascal Chevrel
+ 
+ [Reference](https://wiki.mozilla.org/Websites/Mozilla.org/Smart_On)
+ 
+ ## UML - Sequence diagram
+ 
+ The following sequence diagram shows the important part of any webbrowser and how it works, how the MVC works in firefox:
+ 
+ ![](firefox-sequence.png)
+
+[Reference](http://blog.quent.in/assets/wp-content/uploads/2012/04/index.png)
+ 
+ 
+## Missing important feature
+  
+  According to [bugzilla](https://bugzilla.mozilla.org). Firefox is missing an important feature which filed at https://bugzilla.mozilla.org/show_bug.cgi?id=1228089. The feature is: "Detect if the user has a URL in their clipboard when re-entering the app", The browser currently checks if there is copied URL only when the app opens for the first time and not when the app goes background -> user copies URL -> enters the browser again.
+  
+  At it is recommended for the new contributers to add that features.
+  
+  Following [Swift style]( https://github.com/raywenderlich/swift-style-guide) which was recommended by firefox. We added the new feature, and created a pull request and attached it on there bugzilla site according to there [guidelines](https://github.com/mozilla/firefox-ios#contributor-guidelines)
+  
+  * [Forked repo.](https://github.com/rawisa/firefox-ios)
+  * [PR](https://github.com/mozilla/firefox-ios/pull/1889) For the missing feature.
