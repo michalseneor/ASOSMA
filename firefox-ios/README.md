@@ -174,7 +174,7 @@ general detailed code structure can be found at (note: this code structure are f
 * **circleci**:
 
 <p align="center">
-![](circleci.png)
+<img src="circleci.png">
 </p>  
   
   Firefox uses circleci for continuous integration. CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp quickly, scale easily, and build confidently every day.
@@ -194,9 +194,11 @@ general detailed code structure can be found at (note: this code structure are f
   
   
   
+  
+  
 * **codebeat**:  
 <p align="center">
-![](codebeatlogo.png)
+<img src="codebeatlogo.png">
 </p>
   
   Codebeat gives instant feedback on the code. It is Automated code review for Swift, Ruby, Go, etc... 
