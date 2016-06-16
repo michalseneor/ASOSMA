@@ -17,6 +17,18 @@
 
 ## Analyze and describe the main requirements/features of the product 
 OptiKey is an assistive on-screen keyboard. It is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations. 
+
+stakeholders view:
+
+OptiKey is an assistive on-screen keyboard which is designed for a wide range of stakeholders:
+
+1. OptiKey is designed to be used with a low cost eye-tracking device to bring keyboard control, this helps to people who has motor limitation (can not use their hands with normal keyboard).
+2. It is also designed to be used with speech to people with speech limitations.
+3. It is also designed to be used with mouse control to be useful for all the people.
+4. OptiKey uses a Low cost certificate for Open Source projects from www.certum.eu wich is one of the main resource available for quick and low cost for a customers production key and certificat.
+
+People with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND), can use this ןncredible keyboard.
+
 Main Features:
 * [Typing words](https://github.com/OptiKey/OptiKey/wiki/Type-your-first-word)
 * [Writing Numbers, symbols and diacritics](https://github.com/OptiKey/OptiKey/wiki/Numbers,-symbols-and-diacritics)
@@ -53,7 +65,9 @@ one of the most importent stages which represent a open source comuninity add va
  
 ![umlILAN](images/ActivityDiagram.png)
 
-## Describe a few challenges for this project
+* [Check out JuliusSweetland and our team conversation about Localisation module review](https://github.com/OptiKey/OptiKey/issues/269)
+
+## OptiKey - Features and challenges
 Issues:
 * [Smart Screen or Virus Scanner warnings](https://github.com/OptiKey/OptiKey/wiki/Smart-Screen-or-Virus-Scanner-warnings)
 * [Cannot open Management Console](https://github.com/OptiKey/OptiKey/wiki/Cannot-open-Management-Console)
