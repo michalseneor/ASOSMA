@@ -22,7 +22,7 @@
   
 #### Architecture 
 
-  The framework works with a client server architecture and different usage patterns level. The actors are mainly the user interface which is the control interface for using BeEF and the communication server. From the interface a user can see all online and offline browsers, run exploits against them and see the results while the communication server is the component that communicates via HTTP with the hooked browsers.  
+  The framework works with a client server architecture and different usage patterns level. The actors are mainly the user interface which is the control interface for using BeEF and the communication server. From the interface a user can see all online and offline browsers, run exploits against them and see the results while the communication server is the component that communicates via HTTP with the hooked browsers. The following high level diagrams are from the BeEF [wiki](https://github.com/beefproject/beef/wiki/Architecture)  
   
   
  ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/Pattern1.png)  
@@ -37,7 +37,7 @@
   
 #### Development Process
   
-  The development process is based on proactive communication and rotates around seven dates in the month. Each one of those dates represents a deadline for specific task concerning assignement of development goals, completion of issues, testing, verification and release of the result ([development cycle](https://github.com/rivkage/ASOSMA/blob/master/BeEF/DevelopmentCycle.md))
+  The development process is based on proactive communication and rotates around seven dates in the month. Each one of those dates represents a deadline for specific task concerning assignement of development goals, completion of issues, testing, verification and release of the result ([development cycle](https://github.com/beefproject/beef/wiki/Development-Organization)
   
 #### Guidelines
 
@@ -119,7 +119,7 @@ Since the BeeF project is dependent on their users to use the system to assess t
 
 
 
-####Describe  the major UML diagrams
+####UML Modeling Diagrams
 
 **describe the main login attack:**
 
