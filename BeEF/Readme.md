@@ -1,7 +1,7 @@
 
 # ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/beef.png) The BeEF Project 
 
- Team Members:  Sarah Gabriel,([SarahGabriel](https://github.com/SarahGabriel))
+ Authors:  Sarah Gabriel,([SarahGabriel](https://github.com/SarahGabriel))
                 Ran Itzhaki ([ranitz](https://github.com/ranitz)), 
                 Itsik Rabinovitch ([itzikrb100](https://github.com/itsikrb100)), 
                 Rivka Gehler ([rivkage](https://github.com/rivkage)),
