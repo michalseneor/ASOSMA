@@ -15,10 +15,10 @@
  general formation appears to be divided into external tools and main source code (divided by two folders) . inside the source code folder we can detect its seperated into three main areas - Main Source, Unit tests and Auto Complete Performance which is another user test cases and automaticly unit testing focus on performance. 
  
 
-## Analyze and describe the main requirements/features of the product 
+## Main features of the product  and stakeholders view
 OptiKey is an assistive on-screen keyboard. It is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations. 
 
-stakeholders view:
+
 
 OptiKey is an assistive on-screen keyboard which is designed for a wide range of stakeholders:
 
