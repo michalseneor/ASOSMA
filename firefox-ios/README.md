@@ -173,7 +173,9 @@ general detailed code structure can be found at (note: this code structure are f
 ## Metrics, Variability and Quality Measures
 * **circleci**:
 
-  ->![](circleci.png)<-
+<p align="center">
+![](circleci.png)
+</p>  
   
   Firefox uses circleci for continuous integration. CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp quickly, scale easily, and build confidently every day.
   Over 100,000 companies uses circleci, such as: Facebook, Kickstarter, Spotify, GoPro, etc...
@@ -193,8 +195,9 @@ general detailed code structure can be found at (note: this code structure are f
   
   
 * **codebeat**:  
-
-->![](codebeatlogo.png)<-
+<p align="center">
+![](codebeatlogo.png)
+</p>
   
   Codebeat gives instant feedback on the code. It is Automated code review for Swift, Ruby, Go, etc... 
   
@@ -231,15 +234,15 @@ general detailed code structure can be found at (note: this code structure are f
   Number of functions is another high-level complexity metric. It is designed to encourage smart composition and modularity instead of refactoring code by multiplying private methods. We believe that a namespace with more than 15 (private and public) functions is a good candidate for breaking up into multiple independent modules each with it's own set of data.
   
   
-    * [Number of instance variables](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions) : 
+  * [Number of instance variables](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions) : 
 
-	Number of instance variables is a metric designed to detect classes that carry too much state. Since every instance variable has an impact on the overall of status of the object the more instance variables you have the more possible states your object can have and this number grows exponentially as you keep adding instance variables.
+  Number of instance variables is a metric designed to detect classes that carry too much state. Since every instance variable has an impact on the overall of status of the object the more instance variables you have the more possible states your object can have and this number grows exponentially as you keep adding instance variables.
 	
 	
 	
-	The Following image shows the errors and how they are presented in the "BrowserViewController.swift" class:
+  The Following image shows the errors and how they are presented in the "BrowserViewController.swift" class:
 	
-	![](codeBeatBadClass.png)
+  ![](codeBeatBadClass.png)
 
   
   
