@@ -1,4 +1,4 @@
-## Stake holder analysis
+## Stakeholders analysis
 OptiKey uses a Low cost certificate for Open Source projects from www.certum.eu wich is one of the main resource available for quick and low cost for a customers production key and certificat . 
 
 
@@ -6,10 +6,10 @@ OptiKey uses a Low cost certificate for Open Source projects from www.certum.eu 
 ![certum Logo](images/cer.PNG)
 <!-- -->
 
-OptiKey is allso guided by MSDN user guide and followed by the Microsoft standrats for developing and deployment by .Net framework 4.5 followed by the link attached here :
+OptiKey is also guided by MSDN user guide and followed by the Microsoft standrads for developing and deployment by .Net framework 4.5 followed by the link attached here:
 [MSDN developer deployment guide](http://msdn.microsoft.com/en-us/library/ee942965%28v=vs.110%29.aspx)
 
-Hardware list for QA and testing performance/development has been assambled by a list of requirements for their project . followed by the idead to test with Low cost tablets and laptops.
+Hardware list for QA and testing performance/development has been assembled by a list of requirements for the project followed by the idea to test with Low cost tablets and laptops.
 [Hardware List](https://github.com/OptiKey/OptiKey/blob/master/docs/Low%20cost%20tablets%20and%20laptops.txt)
 
 **Posts, issues, Bugs**
