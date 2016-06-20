@@ -1,3 +1,4 @@
+<a href="https://codebeat.co/projects/github-com-beefproject-beef"><img alt="codebeat badge" src="https://codebeat.co/badges/94cc1baa-cdf3-4e4a-b4ac-b3035674d278" /></a>
 
 # ![](https://github.com/rivkage/ASOSMA/blob/master/BeEF/beef.png) The BeEF Project 
 
