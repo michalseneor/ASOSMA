@@ -1,21 +1,20 @@
 # Views and prespectives 
-(stage 2)
 
 ## OptiKey Fork
 
-* [OptiKey Fork](https://github.com/adirel/OptiKey) - this is our fork to the optikey project
-* [OptiKey Fork - Modeling documentation folder](https://github.com/adirel/OptiKey/tree/master/docs/Modeling) - we created a new modeling folder into the optikey project in out fork.
+* [OptiKey Fork](https://github.com/adirel/OptiKey) - this is our fork to the OptiKey project
+* [OptiKey Fork - Modeling documentation folder](https://github.com/adirel/OptiKey/tree/master/docs/Modeling) - we created a new modeling folder into the OptiKey project in our fork.
 
-## Documentation and general source code structure
+## Documentation and general source code structure is as follows
 
-* OptiKey project includes a "docs" folder which contains general information like credits, graphic design notes and some of the deployment proccess of this project.
-* [OptiKey wiki](https://github.com/OptiKey/OptiKey/wiki) - contain a full user guide about the UI, General information, technical support and troubleshooting and installation proccess.
+* OptiKey project includes a "docs" folder which contains general information such as credits, graphic design notes and some of the deployment proccess of the project.
+* [OptiKey wiki](https://github.com/OptiKey/OptiKey/wiki) - contain a full user guide about the UI, general information, technical support, troubleshooting and installation proccess.
 * [Video](https://www.youtube.com/watch?v=HLkyORh7vKk) - there is an intro video which is very helpfull.
 * general source code structure - is a typicaly .Net formation project of WPF architecture. this is a very importent part which called "enums" and its decribe major part of the system code structure.
  general formation appears to be divided into external tools and main source code (divided by two folders) . inside the source code folder we can detect its seperated into three main areas - Main Source, Unit tests and Auto Complete Performance which is another user test cases and automaticly unit testing focus on performance. 
  
 
-## Main features of the product  and stakeholders view
+## Main features of the product and stakeholders view
 OptiKey is an assistive on-screen keyboard. It is designed to be used with a low cost eye-tracking device to bring keyboard control, mouse control and speech to people with motor and speech limitations. 
 
 
@@ -23,11 +22,11 @@ OptiKey is an assistive on-screen keyboard. It is designed to be used with a low
 OptiKey is an assistive on-screen keyboard which is designed for a wide range of stakeholders:
 
 1. OptiKey is designed to be used with a low cost eye-tracking device to bring keyboard control, this helps to people who has motor limitation (can not use their hands with normal keyboard).
-2. It is also designed to be used with speech to people with speech limitations.
-3. It is also designed to be used with mouse control to be useful for all the people.
-4. OptiKey uses a Low cost certificate for Open Source projects from www.certum.eu wich is one of the main resource available for quick and low cost for a customers production key and certificat.
+2. It is designed to comprehend speech for people with speech limitations as well.
+3. It is also designed to be used with mouse control for general population.
+4. OptiKey uses a Low cost certificate for Open Source projects from www.certum.eu wich is one of the main resources available quickly and cheeply for a customers production key and certificat.
 
-People with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND), can use this ןncredible keyboard.
+People with motor and speech limitations, such as people living with Amyotrophic Lateral Sclerosis (ALS) / Motor Neuron Disease (MND), can use this incredible keyboard.
 
 Main Features:
 * [Typing words](https://github.com/OptiKey/OptiKey/wiki/Type-your-first-word)
@@ -54,14 +53,14 @@ Main Features:
 * [Word settings](https://github.com/OptiKey/OptiKey/wiki/Word-settings)
 * [Pointing & selecting settings](https://github.com/OptiKey/OptiKey/wiki/Pointing-&-selecting-settings)
 
-## Analyze and describe the major or important designs with UML diagrams and or other modeling means
+## Analysis and description of the major & important designs with UML diagrams and other modelling means
 
-one of the most importent stages which represent a open source comuninity add value and system expandad measors.
- this diagram describe the 4 stages wich needed to adding a new local.
+One of the most important stages which represent a open source communinity is adding value and system expandad measures.
+The following diagram describes the 4 stages which are needed to add a new locale.
 * UI element translations
-* a word dictionary
-* a keyboard layout
-* integrate them into OptiKey
+* word dictionary
+* keyboard layout
+* integration into OptiKey
  
 ![umlILAN](images/ActivityDiagram.png)
 
