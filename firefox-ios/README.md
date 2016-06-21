@@ -45,6 +45,7 @@ They can find the bugs that need to be fixed at the following list:
 
 * Bugs:           [File a new bug](https://bugzilla.mozilla.org/enter_bug.cgi?bug_file_loc=http%3A%2F%2F&bug_ignored=0&op_sys=iOS%20&product=Firefox%20for%20iOS&rep_platform=All) • [Existing bugs](https://bugzilla.mozilla.org/describecomponents.cgi?product=Firefox%20for%20iOS) 
 
+* Another ASOSMA project: http://aosabook.org/en/ffreleng.html
 
 
 # Statics
@@ -168,3 +169,104 @@ general detailed code structure can be found at (note: this code structure are f
   
   * [Forked repo.](https://github.com/rawisa/firefox-ios)
   * [PR](https://github.com/mozilla/firefox-ios/pull/1889) For the missing feature.
+  
+  
+## Metrics, Variability and Quality Measures
+* **circleci**:
+
+<p align="center">
+<img src="circleci.png">
+</p>  
+  
+  Firefox uses circleci for continuous integration. CircleCI’s continuous integration and delivery platform helps software teams rapidly release code with confidence by automating the build, test, and deploy process. CircleCI offers a modern software development platform that lets teams ramp quickly, scale easily, and build confidently every day.
+  Over 100,000 companies uses circleci, such as: Facebook, Kickstarter, Spotify, GoPro, etc...
+  
+  ![](companies.png)
+  
+  circleci can be easily installed, run tests and automatically have each successful build on master be pushed to any deployment host.
+  
+  For the PR we made it took circleci about 10 minutes to run all the tests by mainly running the following command which executes all the tests in the project:
+ 
+  **"set -o pipefail && xcodebuild CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY= PROVISIONING_PROFILE= ONLY_ACTIVE_ARCH=NO VALID_ARCHS="i386 x86_64" -destination 'platform=iOS Simulator,name=iPhone 4s,OS=9.3' -sdk iphonesimulator -project 'Client.xcodeproj' -scheme "FennecCI" clean build test | tee $CIRCLE_ARTIFACTS/xcode_raw.log"**
+  
+  It ran 263 tests in xcode with 0 failures. When the tests finishes it shows a green arrow on the PR to verify that our build passed all tests:
+  
+  ![](our-pr.png)
+  
+  
+  
+  
+  
+* **codebeat**:  
+<p align="center">
+<img src="codebeatlogo.png">
+</p>
+  
+  Codebeat gives instant feedback on the code. It is Automated code review for Swift, Ruby, Go, etc... 
+  
+  codebeat gathers the results of code analysis into a single, real-time report that gives all project stakeholders the information required to improve code quality.
+  
+  Firefox has a *3.02 GPA*, *B* grade according to Codebeat [![codebeat badge](https://codebeat.co/badges/67e58b6d-bc89-4f22-ba8f-7668a9c15c5a)](https://codebeat.co/projects/github-com-mozilla-firefox-ios)
+  
+  Codebeat report comes with a number that can range from 0 (worst) to 4 (best). Codebeat explains how [Calculating GPAs](https://hub.codebeat.co/docs/gpa-explained#calculating-gpas).
+  
+  According for firefox-ios's codebeat https://codebeat.co/projects/github-com-mozilla-firefox-ios . They have many problems in a class called "BrowserViewController.swift":
+  
+  * Too many methods - 198 methods
+  * Too many instance variables - 32 instance variables
+  * Namespace too long - 2344 lines of code
+  * Total complexity too high - complexity = 1312
+  
+  And have a code duplication in *"Client/Frontend/Browser/BrowserTrayAnimators.swift:205...217"* and *"Client/Frontend/Browser/BrowserTrayAnimators.swift:219...231"* .
+  
+  ![](codeBeat1.png)
+  
+  
+  * [Total complexity](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#total-complexity) : 
+  
+  Total complexity represents aggregate Assignment Branch Condition size of the entire namespace. High total complexity indicates a namespace that contains too much logic and should probably be broken down into smaller elements.
+  
+  
+  * [Lines of code](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#lines-of-code) : 
+  
+  This represents the total length (code-wise) of a namespace. It is probably the most naive metric among the ones that we report on but can nevertheless provide substantial value. Ideally a single logical unit of code (class, module, etc.) should fit on one screen, without the need for scrolling. Longer namespaces are harder to navigate and understand, making your code less maintainable.
+  
+  
+  * [Number of functions](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions) : 
+  
+  Number of functions is another high-level complexity metric. It is designed to encourage smart composition and modularity instead of refactoring code by multiplying private methods. We believe that a namespace with more than 15 (private and public) functions is a good candidate for breaking up into multiple independent modules each with it's own set of data.
+  
+  
+  * [Number of instance variables](https://hub.codebeat.co/v1.0/docs/namespace-level-metrics#number-of-functions) : 
+
+  Number of instance variables is a metric designed to detect classes that carry too much state. Since every instance variable has an impact on the overall of status of the object the more instance variables you have the more possible states your object can have and this number grows exponentially as you keep adding instance variables.
+	
+	
+	
+  The Following image shows the errors and how they are presented in the "BrowserViewController.swift" class:
+	
+  ![](codeBeatBadClass.png)
+
+  
+  
+## Security
+  ![](security.jpg)
+  
+  **Firefox 4:**
+  
+  Firefox presented a Sync 1.0, which creates a unique secret key, which was used to encrypt and decrypt all your data. And the only way to get the data was to know that key.
+  
+  
+  **Problems with Sync 1.0**
+  
+  If you lose your only device, you probably also lost the only copy of your secret key, and without that key, there was no way to recover your Sync data.
+  
+  
+  **Firefox 29:**
+  
+  features a brand new Firefox Sync experience that is much easier to use while maintaining the high standard of safety, security, and openness that a user expects from Mozilla.  
+  
+  The security goals remain the same: there is still a strong random secret key, and Mozilla’s servers cannot decrypt your data.
+  However, instead of using pairing, a “wrapped” version of your secret key, protected by your password, is stored alongside your Firefox Account.
+  This means you can recover all your data, even if you lose all your devices at the same time.
+  Setting up a new device only requires typing your Firefox Account email and password into it.
