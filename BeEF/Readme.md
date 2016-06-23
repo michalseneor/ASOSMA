@@ -133,6 +133,10 @@ Since the BeeF project is dependent on their users to use the system to assess t
  ![](https://github.com/itzikrb100/ASOSMA/blob/master/BeEF/sequence%20diagram%20login.png)
 
 
+**description RESTful API sequence diagram :** In order to use the API, a token parameter must be always added to requests
+ (Alternatively,if you want to write automated scripts that uses the RESTful API, you can issue a POST request to /api/admin/login using the BeEF credentials).After this The hooks handler gives information about the hooked browsers, both online and offline.
+ 
+
 ####**Challenges**
 
 
